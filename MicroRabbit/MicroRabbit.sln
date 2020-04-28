@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{E8ACF6C0-8BEA-4FBD-9792-A9F3AD7F9C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{DAFF087A-A3A6-4916-8B12-E4A7DFCF8D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{DAFF087A-A3A6-4916-8B12-E4A7DFCF8D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{8D70A3A4-2BEB-40A7-A351-94BAD4ABD60C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{DAFF087A-A3A6-4916-8B12-E4A7DFCF8D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAFF087A-A3A6-4916-8B12-E4A7DFCF8D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAFF087A-A3A6-4916-8B12-E4A7DFCF8D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D70A3A4-2BEB-40A7-A351-94BAD4ABD60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D70A3A4-2BEB-40A7-A351-94BAD4ABD60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D70A3A4-2BEB-40A7-A351-94BAD4ABD60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D70A3A4-2BEB-40A7-A351-94BAD4ABD60C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E8ACF6C0-8BEA-4FBD-9792-A9F3AD7F9C97} = {F6C772D0-4D6D-4479-A9ED-E9BF7262173E}
 		{DAFF087A-A3A6-4916-8B12-E4A7DFCF8D15} = {9ADED933-C86F-4C74-9F36-59BDECCB19D5}
+		{8D70A3A4-2BEB-40A7-A351-94BAD4ABD60C} = {82D8C960-5609-478B-AAF1-00F62215F8E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14792775-4191-436F-8FB3-F6EF4A0D3859}
